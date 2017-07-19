@@ -1,0 +1,216 @@
+/* 
+ Theme Name:     divi collectionpress
+ Author:         Knowlege Arc
+ Author URI:     http://www.knowledgearc.com/
+ Template:       Divi
+ Version:        1.0
+ Description:   A child theme for collectionpress that works with Divi theme
+ Wordpress Version: 4.8
+*/ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+/*
+html
+{
+    font-size: 14px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}*/
+body a
+{
+    transition: all .3s;
+}
+
+h3,
+h4,
+h5,
+h6,
+.h3,
+.h4,
+.h5,
+.h6
+{
+    font-family: Tharlon, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-bottom: 0;
+}
+#main-content .container {
+    padding-top: 25px;
+}
+#footer-info{
+    padding-top: 10px;
+    border-top:1px solid #eee;
+}
+
+#footer-info a {
+    color: #f60;
+    font-weight: 400;
+}
+#footer-info a:hover {
+    color: #0f71be;
+    opacity: 1 !important;
+    text-decoration: underline;
+}
+
+.karc-cp-container .author-items-wrap ul li a{
+    color: #ff6600;
+}
+
+.karc-cp-container .author-items-wrap ul li a:hover {
+    color: #0f71be;
+}
+
+@media (min-width: 981px) {
+.container {
+   
+    position: relative;
+     width: 100%; 
+    max-width: 100%;
+    margin: auto;
+    padding: 0 4%;
+}
+
+.et_header_style_left .logo_container {
+
+    width: auto;
+
+}
+
+.et_pb_section {
+    padding: 0;
+}
+
+
+#footer-info {
+    float: left;
+    padding-bottom: 10px;
+    color: #333333;
+    text-align: left;
+    width: 100%;
+}
+
+
+.et_right_sidebar #sidebar {
+    padding-left: 0;
+}
+
+.karc-cp-container #sidebar {
+    padding-right:30px;
+}
+
+.et_pb_gutters3 .footer-widget {
+    margin: 0;
+}
+
+.left-credit, .right-credit {
+    width: 49%;
+    display: inline-block;
+}
+.right-credit {
+    text-align: right;
+}
+
+.et_pb_row.et_pb_row_fullwidth, .et_pb_specialty_fullwidth > .et_pb_row {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.et_pb_row {
+    padding: 4%;
+}
+
+.et_pb_gutters3.et_pb_footer_columns2 .footer-widget {
+    width: 100%;
+}
+
+}
+
+@media (min-width: 981px){
+
+.et_pb_gutters3 .et_pb_column_1_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_1_4 .et_pb_widget, .et_pb_gutters3 .et_pb_column_1_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_1_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_1_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_1_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4 .et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4 .et_pb_widget, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_section_specialty .et_pb_row .et_pb_column_1_2 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4 .et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_1_2 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4 .et_pb_widget, .et_section_specialty .et_pb_row .et_pb_column_1_2 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4 .et_pb_shop_grid .woocommerce ul.products li.product {
+    margin-bottom: 15px;
+}
+}
+.et_pb_widget ul li {
+    margin-bottom: 0;
+}
+
+
+
+#sidebar
+{
+    /*background-color: transparent;*/
+}
+
+
+
+
+/*header#main-header {
+    background: #017AC1;
+}*/
+
+#sidebar h4.widgettitle, .et_pb_column_1_3 h4, .et_pb_column_1_4 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 4px 0;
+}
+
+#sidebar ul li a, .et_pb_bg_layout_light .et_pb_widget li a {
+    color: #0f71be;
+    padding: 4px 0;
+}
+
+#sidebar ul li a:hover, .et_pb_bg_layout_light .et_pb_widget li a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/*Divi theme specific*/
+
+#sidebar .et_pb_widget ul li {
+    margin-bottom: 0;
+}
+
+#sidebar .et_pb_widget {
+    float: none;
+    width: 100%;
+    margin-bottom: 9px;
+}
+.container:before { background-color:transparent !important; }
+.et_pb_widget_area_right { border-left:0 !important; }
+.et_pb_widget_area_left { border-right:0 !important; }
+
+.widget_search #searchsubmit {
+ 
+    background-color: #017ac1;
+   
+}
+
+.widget_search input#s, .widget_search input#searchsubmit {
+    height: 32px !important;
+    border: 1px solid #017ac1;
+    color: #000;
+     border-radius: 0;
+
+}
+.widget_search input#searchsubmit {
+
+    color: #fff;
+    padding: 0.3em;
+
+}
+
+
+
+.content-wrap{
+    display: block;
+}
+
+
+
