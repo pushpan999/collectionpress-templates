@@ -14,8 +14,9 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 ?>
 
 <div id="main-content">
-    <div class="container">
-        <div id="content-area" class="clearfix">
+    <div class="container karc-cp-container">
+        <div id="content-area" class="clearfix">        
+             <?php get_sidebar(); ?>
             <div id="left-area">
                 <?php while ( have_posts() ) : the_post(); ?>
                     <?php if (et_get_option('divi_integration_single_top') <> '' && et_get_option('divi_integrate_singletop_enable') == 'on') echo(et_get_option('divi_integration_single_top')); ?>
@@ -202,7 +203,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
                 <?php endwhile; ?>
             </div> <!-- #left-area -->
 
-        <?php get_sidebar(); ?>
+     
         </div> <!-- #content-area -->
     </div> <!-- .container -->
 </div> <!-- #main-content -->
